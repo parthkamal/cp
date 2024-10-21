@@ -1,0 +1,57 @@
+COMPETITIVE PROGRAMMING SITES
+1. codeforces.com
+2. codechef.com
+3. hackerrank.com
+4. atcoder.jp
+5. leetcode.com
+
+PROBLEMSETS - 
+
+1. cses problem set - https://cses.fi/problemset/list/
+2. a2z dsa sheet - https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
+3. sde sheet for coding interview - https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
+4. striver cp sheet for structured cp problems - https://takeuforward.org/interview-experience/strivers-cp-sheet
+
+THEORY AND NOTES - 
+
+1. the ultimate topic list - https://youkn0wwho.academy/topic-list
+
+BOOKS - 
+
+1. the competitive programmers handbook -  https://cses.fi/book/book.pdf
+2. the art and craft of problem solving - http://www.gang.umass.edu/~franz/Paul_Zeitz_The_Art_and_Craft_of_Problem_SolvingBookosorg.pdf
+
+TOPICS - 
+
+1. In Place Algorithms 
+2. Sorting Algorithms
+    1. stable and unstable algorithms - https://www.geeksforgeeks.org/stable-and-unstable-sorting-algorithms/
+    2. Types - 
+        1. Bubble sort
+        2. selection sort
+        3. insertion sort 
+        4. quick sort 
+        5. merge sort 
+        6. heap sort - https://www.geeksforgeeks.org/heap-sort/
+        7. Dutch National Flag Problem
+        8. counting sort 
+3. Bit manipulation 
+    1. Bit representation 
+        1. Signed Representation 
+            1. 1's complement
+            2. 2's complement
+        2. Bitmasking 
+            1. removing the right most bit - https://takeuforward.org/bit-manipulation/remove-the-rightmost-set-bit
+            2. check the set bit 
+            3. check if the power of 2
+            4. xor for flipping the bits 
+            5. generate substation combinations - https://www.geeksforgeeks.org/find-distinct-subsets-given-set/
+4. Combinatorics 
+    1. Inclusion Exclusion Principle - https://youkn0wwho.academy/topic-list/principle_of_inclusion_and_exclusion
+5. Graph 
+    1. Traversal Algorithms 
+        1. Depth first search ( dfs  )
+            1. dfs on grid 
+        2. Breadth first search ( bfs )
+            1. bfs on grid 
+                1. multisource bfs

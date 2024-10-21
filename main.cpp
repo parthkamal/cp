@@ -1,52 +1,32 @@
-#include <bits/stdc++.h>
+#include <cstdio>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
+int solve(std::vector<int> arr, int n) {
+  int sum = 0;
+  for (int i = 0; i < n; i++) {
+    sum += arr[i];
+  }
 
-void solve(int row){
-
-
-    int r = row; 
-
-    for(int i=0;i<r; i++){
-        for(int j=0;j<r;j++){
-            if(j>i && j<r){
-                cout<<" ";
-            }else {
-                int val =0 ; 
-
-                val = val + (j*(2*r -j+1))/2;
-
-                if(j%2==0){
-                    val += i-j+1;
-                }else {
-                    int col = r-1;
-                    val+= col-i+1; 
-                }
-
-                cout<<val<<" ";
-            }
-        }
-
-        cout<<endl;
-    }
+  return sum;
 }
 
-
-int main()
-{
+int main() {
 #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
 #endif
 
+  int n;
+  std::cin >> n;
+  std::vector<int> a(n);
+  for (int i = 0; i < n; i++)
+    std::cin >> a[i];
 
-    
-    cout<<(1<<1)<<endl; 
-    cout<<(1<<2)<<endl; 
-    cout<<(1<<3)<<endl; 
-    cout<<(1<<4)<<endl; 
+  int ans = solve(a, n);
+  std::cout << ans << std::endl;
 
-
-    return 0;
+  return 0;
 }
