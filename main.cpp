@@ -13,6 +13,8 @@ int solve(std::vector<int> arr, int n) {
   return sum;
 }
 
+// new comment
+
 int main() {
 #ifndef ONLINE_JUDGE
   freopen("input.txt", "r", stdin);
