@@ -4,16 +4,12 @@
 
 using namespace std;
 
-int solve(std::vector<int> arr, int n) {
-  int sum = 0;
-  for (int i = 0; i < n; i++) {
-    sum += arr[i];
-  }
+int solve(std::vector<int> a,int n){
+  int sum =0; 
+  for(int i=0;i<n;i++){
 
-  return sum;
+  } 
 }
-
-// new comment
 
 int main() {
 #ifndef ONLINE_JUDGE
@@ -26,9 +22,7 @@ int main() {
   std::vector<int> a(n);
   for (int i = 0; i < n; i++)
     std::cin >> a[i];
-
   int ans = solve(a, n);
   std::cout << ans << std::endl;
-
   return 0;
 }

@@ -45,9 +45,8 @@ TOPICS -
             2. check the set bit 
             3. check if the power of 2
             4. xor for flipping the bits 
-            5. generate substation combinations - https://www.geeksforgeeks.org/find-distinct-subsets-given-set/
+            5. generate subset combinations - https://www.geeksforgeeks.org/find-distinct-subsets-given-set/
 4. Combinatorics 
-    1. Inclusion Exclusion Principle - https://youkn0wwho.academy/topic-list/principle_of_inclusion_and_exclusion
 5. Graph 
     1. Traversal Algorithms 
         1. Depth first search ( dfs  )
@@ -55,3 +54,18 @@ TOPICS -
         2. Breadth first search ( bfs )
             1. bfs on grid 
                 1. multisource bfs
+    2. Disjoint - Set Union
+        1. Path Compression 
+        2. Union By rank
+6. Maths
+    1. Number Theory
+    2. Set theory 
+        1. set operations - 
+            1. union, intersection, difference
+            2. complement
+        2. power set 
+        3. cardinality 
+        4. inclusion exclusion principle 
+        5. disjoint sets 
+        6. venn diagrams 
+
