@@ -1,1 +1,4 @@
-
+lca finding approaches - 
+1. recursive approach ( understaning )
+2. parent pointer approach
+3. binary lifting
