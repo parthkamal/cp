@@ -1,7 +1,0 @@
-1. https://codeforces.com/problemset/problem/2112/C
-2. https://codeforces.com/problemset/problem/2123/D
-3. https://codeforces.com/problemset/problem/2121/C
-4. https://leetcode.com/problems/combinations/description/
-5. https://leetcode.com/problems/simplify-path/
-
-
