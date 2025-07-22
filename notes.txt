@@ -1,3 +1,16 @@
+map - Uses a self-balancing binary search tree (usually a Red-Black Tree).
+unordered_map - Uses a hash table with chaining or probing for collision resolution.
+
+binary search tree -> for each node, left subtree <  node < right subtree ( not inherently self balancing ), normal operations ( creation , insertion, deletion ( concept of inorder successor ) , search, traversal )
+
+self balancing binary search tree -> avl , red black
+linked list implementation considerations -> use nullptr , delete keyword carefully, for handling edge cases and memory leaks
+
+
+dp forms - vivek gupta
+form 1 ( level, choise, move , action )
+form 2
+
 lca finding approaches - 
 1. recursive approach ( understaning )
 2. parent pointer approach
